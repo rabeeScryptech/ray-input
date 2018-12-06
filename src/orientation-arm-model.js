@@ -12,7 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
+import * as THREE from 'three';
 const HEAD_ELBOW_OFFSET_RIGHTHANDED = new THREE.Vector3(0.155, -0.465, -0.15);
 const HEAD_ELBOW_OFFSET_LEFTHANDED = new THREE.Vector3(-0.155, -0.465, -0.15);
 let headElbowOffset = HEAD_ELBOW_OFFSET_RIGHTHANDED;
